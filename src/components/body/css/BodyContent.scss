@@ -1,0 +1,58 @@
+@import "../../variables";
+
+.body-content {
+  margin-top: 64px;
+  .header {
+    h3 {
+      color: $linkcolor;
+      font-size: 32px;
+    }
+  }
+  .body-content-item {
+    border: 1px solid $boderitemcolor;
+    padding: 24px;
+    padding-right: 24px;
+    padding-left: 40px;
+    // border-left: $bordercontentitem;
+    background-color: $bgitem;
+    margin-bottom: 32px;
+    .right {
+      border-left: $rightborderitem;
+    }
+  }
+  .body-content-list {
+    margin-top: 32px;
+    h3 {
+      color: $linkcolor;
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .items {
+      padding: 0 16px !important;
+      .item:first-child {
+        margin-right: 64px;
+      }
+    }
+    .right-first,
+    .right-second {
+      h5 {
+        font-size: 15px;
+        font-family: $hero;
+        color: $titleblur;
+      }
+    }
+    .right-second {
+      p {
+        font-size: 16px;
+        font-family: $hero;
+        color: $linkcolor;
+      }
+      h5 {
+        margin-top: 33px;
+      }
+      padding: 0 16px !important;
+    }
+  }
+}
